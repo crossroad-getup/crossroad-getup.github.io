@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+   <title></title>
+
+    <link href="bootstrap.css" rel="stylesheet"> 
+    <link href="styles.css" rel="stylesheet"> 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- start collapsed navbar -->
+        <div class="navbar-header">
+          <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#main_navbar"
+          aria-expanded="false">Menu</button>
+        </div><!-- /collapsed navbar -->
+
+        <!-- start un-collapsed navbar -->
+        <div class="collapse navbar-collapse" id="main_navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="landingPage.html">Home</a></li>
+            <li><a href="taskPage.html">Task Details</a></li>
+            <li class="active"><a href="aboutPage.html">About</a></li>
+          </ul>
+        </div> <!-- /un-collapsed navbar -->
+
+      </div> <!-- /container -->
+    </nav>
+
+    <div class="container">
+      <!-- start breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="landingPage.html">Home</a></li>
+        <li><a href="taskPage.html">Task Details</a></li>
+        <li><a href="aboutPage.html">About</a></li>  
+      </ol> <!-- /breadcrumb -->
+
+      <p>This site gives a recipe for cheesecake.</p>
+      <p>
+        On the home page, you can find the required materials to make the cake. 
+        On the task page, you can find the images showing what the items look like.
+      </p>
+    </div>
+  
+
+    <script src="jquery.min.js"></script> <!-- jquery libraries -->
+    <script src="bootstrap.min.js"></script> <!-- bootsrap libraries -->
+
+  </body>
+</html>

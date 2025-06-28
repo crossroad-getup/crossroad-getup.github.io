@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+   <title></title>
+
+    <link href="bootstrap.css" rel="stylesheet"> 
+    <link href="styles.css" rel="stylesheet"> 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- start collapsed navbar -->
+        <div class="navbar-header">
+          <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#main_navbar"
+          aria-expanded="false">Menu</button>
+        </div><!-- /collapsed navbar -->
+
+        <!-- start un-collapsed navbar -->
+        <div class="collapse navbar-collapse" id="main_navbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="landingPage.html">Home</a></li>
+            <li><a href="taskPage.html">Task Details</a></li>
+            <li><a href="aboutPage.html">About</a></li>
+          </ul>
+        </div> <!-- /un-collapsed navbar -->
+
+      </div> <!-- /container -->
+    </nav>
+
+    <div class="container">
+      <!-- start breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="landingPage.html">Home</a></li>
+      </ol> <!-- /breadcrumb -->
+
+      <dic class="row">
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <h4>Hi, there!</h4>
+          <p>We are going to make a cheesecake. Listed here are the materials needed in the recipe. We need to prepare those before starting to make the cake. </p>
+          <p>You can check items when you have prepared them. Thank you!</p>
+          <p>You can click on the items to see details about the items</p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="checkbox ">
+            <label><input type="checkbox"> <a href="taskPage.html">graham cracker crumbs </a></label>
+          </div>
+          <div class="checkbox ">
+            <label><input type="checkbox"> <a href="taskPage.html">white sugar </a></label>
+          </div>
+          <div class="checkbox "> 
+            <label><input type="checkbox"> <a href="taskPage.html">margarine </a></label>
+          </div>
+          <div class="checkbox ">
+            <label><input type="checkbox"><a href="taskPage.html"> cream cheese </a></label>
+          </div>
+          <div class="checkbox ">
+            <li><input type="checkbox"><a href="taskPage.html"> all-purpose flour </a></li>
+          </div>
+          <div class="checkbox ">
+            <li><input type="checkbox"><a href="taskPage.html"> eggs </a></li>
+          </div>
+          <div class="checkbox ">
+            <li><input type="checkbox"><a href="taskPage.html"> lemon juice </a></li>   
+          </div>
+          <div class="checkbox ">
+            <li><input type="checkbox"><a href="taskPage.html"> vanilla extract </a></li>  
+          </div>      
+        </div>
+      </div>
+    </div>
+  
+
+    <script src="jquery.min.js"></script> <!-- jquery libraries -->
+    <script src="bootstrap.min.js"></script> <!-- bootsrap libraries -->
+
+  </body>
+</html>
